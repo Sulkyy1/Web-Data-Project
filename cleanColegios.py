@@ -20,18 +20,20 @@ df1 = df1.dropna()
 df2 = df2.dropna()
 df3 = df3.dropna()
 
-# Lista para iterar
-dflist = [df1, df2, df3]
-
 # Columnas numéricas
 columns = ['EFECTIVR', 'SUPERAR', 'INICIAR', 'MEJORAR', 'INTEGRAR', 'IGUALDR', 'CLUSTER', 'INDICER']
 
 # Eliminar números negativos de las columnas numéricas
-for df in dflist:
-    for col in columns:
-        df[col] = df[col].astype(str).str.replace(',', '.', regex=True)
-        df[col] = pd.to_numeric(df[col])
-    df = df[df[columns].min(axis=1) >= 0]
+for col in columns:
+    df1[col] = df1[col].astype(str).str.replace(',', '.', regex=True)
+    df2[col] = df2[col].astype(str).str.replace(',', '.', regex=True)
+    df3[col] = df3[col].astype(str).str.replace(',', '.', regex=True)
+    df1[col] = pd.to_numeric(df1[col])
+    df2[col] = pd.to_numeric(df2[col])
+    df3[col] = pd.to_numeric(df3[col])
+df1 = df1[df1[columns].min(axis=1) >= 0]
+df2 = df2[df2[columns].min(axis=1) >= 0]
+df3 = df3[df3[columns].min(axis=1) >= 0]
 
 # Guardar archivos limpios
 df1.to_csv('SNED_2018_2019_clean.csv', sep=';', index=False)
