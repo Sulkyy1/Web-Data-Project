@@ -2,22 +2,27 @@ import csv
 from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, RDFS
 
-# Crear un gráfico RDF
+# Crear un grafo RDF
 g = Graph()
 
 # Definir un namespace personalizado
 EX = Namespace("http://example.org/")
+
+# Añadir prefijos al grafo
+g.bind("ex", EX)
 
 # Leer el CSV
 with open("tu_archivo.csv", newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         # Crear un URI para cada fila
-        subject = URIRef(EX + row['id'])  # Ajusta 'id' al campo clave de tu CSV
+        subject = URIRef(EX + row['RBD'])  # Ajusta 'RBD' al campo clave del CSV
         
         # Añadir las propiedades
         for key, value in row.items():
-            g.add((subject, URIRef(EX + key), Literal(value)))
+            if key == 'NOM_RBD':
+                g.add((subject, URIRef(EX + 'nombre'), Literal(value)))
+            
 
 # Guardar el RDF en un archivo
-g.serialize("salida.rdf", format="turtle")  # Puedes cambiar el formato a "xml" o "nt"
+g.serialize("salida.rdf", format="turtle")
