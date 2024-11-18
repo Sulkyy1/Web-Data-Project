@@ -26,7 +26,8 @@ with open(csv_delincuencia, mode='r', newline='') as file:
         #Añadir tripletas al grafo
         g.add((sujeto, RDF.type, EX.Delito))
         g.add((sujeto, EX.tipo, Literal(row['delito'], datatype=XSD.string)))
-        g.add((sujeto, EX.delito, Literal(row['delito'], datatype=XSD.string)))
+        g.add((sujeto, EX.cantidad, Literal(row['delito_n'], datatype=XSD.integer)))
+        g.add((sujeto, EX.fecha, Literal(row['fecha'], datatype=XSD.date)))
         
         
 # Guardar en un archivo en formato Turtle
