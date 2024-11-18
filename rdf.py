@@ -17,7 +17,7 @@ def convert_schools(filename: str):
         reader = csv.DictReader(csvfile, delimiter=';')
         for row in reader:
             # Crear un URI único para cada colegio
-            colegio_uri = URIRef(EX + row['RBD'])  # Ajusta 'RBD' al campo clave del CSV
+            colegio_uri = URIRef(EX + 'rbd' + row['RBD'])  # Ajusta 'RBD' al campo clave del CSV
             
             # Añadir el tipo del recurso
             g.add((colegio_uri, RDF.type, EX.Colegio))
@@ -41,3 +41,12 @@ def convert_sned(filename: str):
 
 # Guardar el RDF en un archivo
 g.serialize("colegios.rdf", format="turtle")
+
+'''
+ex:efectividad-1-2020 a qb:Observation ;
+    qb:dataSet ex:gdpDataset ;
+    ex:colegio ex:rbd1;
+    ex:year "2020" ;
+    ex:gdp 352000 ;
+    ex:currency "USD" 
+'''
