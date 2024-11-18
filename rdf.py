@@ -11,18 +11,33 @@ EX = Namespace("http://example.org/")
 # Añadir prefijos al grafo
 g.bind("ex", EX)
 
-# Leer el CSV
-with open("tu_archivo.csv", newline='') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        # Crear un URI para cada fila
-        subject = URIRef(EX + row['RBD'])  # Ajusta 'RBD' al campo clave del CSV
-        
-        # Añadir las propiedades
-        for key, value in row.items():
-            if key == 'NOM_RBD':
-                g.add((subject, URIRef(EX + 'nombre'), Literal(value)))
+def convert_schools(filename: str):
+    # Leer el CSV
+    with open(filename, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        for row in reader:
+            # Crear un URI único para cada colegio
+            colegio_uri = URIRef(EX + row['RBD'])  # Ajusta 'RBD' al campo clave del CSV
             
+            # Añadir el tipo del recurso
+            g.add((colegio_uri, RDF.type, EX.Colegio))
+
+            # Añadir las propiedades del recurso
+            g.add((colegio_uri, EX.nombre, Literal(row['NOM_RBD'])))
+            g.add((colegio_uri, EX.CodDep, Literal(row['COD_DEPE'])))
+            g.add((colegio_uri, EX.CodDep2, Literal(row['COD_DEPE2'])))
+            g.add((colegio_uri, EX.Rural, Literal(row['RURAL_RBD'])))
+
+def convert_sned(filename: str):
+    # Leer el CSV
+    with open(filename, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        for row in reader:
+            # Crear un URI único para cada colegio
+            colegio_uri = URIRef(EX + row['RBD'])  # Ajusta 'RBD' al campo clave del CSV
+            
+            # Añadir las propiedades del recurso
+            g.add((colegio_uri, EX.Promedio, Literal(row['Promedio'])))
 
 # Guardar el RDF en un archivo
-g.serialize("salida.rdf", format="turtle")
+g.serialize("colegios.rdf", format="turtle")
