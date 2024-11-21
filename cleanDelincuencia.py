@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# Cargar los datasets de colegios
+# Cargar los datasets de delincuencia
 df_delincuencia = pd.read_csv('cead_delincuencia_chile.csv', delimiter=';')
 
 # Reemplazar los espacios en blanco por NaN

@@ -1,0 +1,346 @@
+comuna;cut_comuna;cut_region
+Iquique;1101;1
+Alto Hospicio;1107;1
+Pozo Almonte;1401;1
+Camiña;1402;1
+Colchane;1403;1
+Huara;1404;1
+Pica;1405;1
+Antofagasta;2101;2
+Mejillones;2102;2
+Sierra Gorda;2103;2
+Taltal;2104;2
+Calama;2201;2
+Ollagüe;2202;2
+San Pedro de Atacama;2203;2
+Tocopilla;2301;2
+María Elena;2302;2
+Copiapó;3101;3
+Caldera;3102;3
+Tierra Amarilla;3103;3
+Chañaral;3201;3
+Diego de Almagro;3202;3
+Vallenar;3301;3
+Alto del Carmen;3302;3
+Freirina;3303;3
+Huasco;3304;3
+La Serena;4101;4
+Coquimbo;4102;4
+Andacollo;4103;4
+La Higuera;4104;4
+Paiguano;4105;4
+Vicuña;4106;4
+Illapel;4201;4
+Canela;4202;4
+Los Vilos;4203;4
+Salamanca;4204;4
+Ovalle;4301;4
+Combarbalá;4302;4
+Monte Patria;4303;4
+Punitaqui;4304;4
+Río Hurtado;4305;4
+Valparaíso;5101;5
+Casablanca;5102;5
+Concón;5103;5
+Juan Fernández;5104;5
+Puchuncaví;5105;5
+Quintero;5107;5
+Viña del Mar;5109;5
+Isla de Pascua;5201;5
+Los Andes;5301;5
+Calle Larga;5302;5
+Rinconada;5303;5
+San Esteban;5304;5
+La Ligua;5401;5
+Cabildo;5402;5
+Papudo;5403;5
+Petorca;5404;5
+Zapallar;5405;5
+Quillota;5501;5
+Calera;5502;5
+Hijuelas;5503;5
+La Cruz;5504;5
+Nogales;5506;5
+San Antonio;5601;5
+Algarrobo;5602;5
+Cartagena;5603;5
+El Quisco;5604;5
+El Tabo;5605;5
+Santo Domingo;5606;5
+San Felipe;5701;5
+Catemu;5702;5
+Llaillay;5703;5
+Panquehue;5704;5
+Putaendo;5705;5
+Santa María;5706;5
+Quilpué;5801;5
+Limache;5802;5
+Olmué;5803;5
+Villa Alemana;5804;5
+Rancagua;6101;6
+Codegua;6102;6
+Coinco;6103;6
+Coltauco;6104;6
+Doñihue;6105;6
+Graneros;6106;6
+Las Cabras;6107;6
+Machalí;6108;6
+Malloa;6109;6
+Mostazal;6110;6
+Olivar;6111;6
+Peumo;6112;6
+Pichidegua;6113;6
+Quinta de Tilcoco;6114;6
+Rengo;6115;6
+Requínoa;6116;6
+San Vicente;6117;6
+Pichilemu;6201;6
+La Estrella;6202;6
+Litueche;6203;6
+Marchihue;6204;6
+Navidad;6205;6
+Paredones;6206;6
+San Fernando;6301;6
+Chépica;6302;6
+Chimbarongo;6303;6
+Lolol;6304;6
+Nancagua;6305;6
+Palmilla;6306;6
+Peralillo;6307;6
+Placilla;6308;6
+Pumanque;6309;6
+Santa Cruz;6310;6
+Talca;7101;7
+Constitución;7102;7
+Curepto;7103;7
+Empedrado;7104;7
+Maule;7105;7
+Pelarco;7106;7
+Pencahue;7107;7
+Río Claro;7108;7
+San Clemente;7109;7
+San Rafael;7110;7
+Cauquenes;7201;7
+Chanco;7202;7
+Pelluhue;7203;7
+Curicó;7301;7
+Hualañé;7302;7
+Licantén;7303;7
+Molina;7304;7
+Rauco;7305;7
+Romeral;7306;7
+Sagrada Familia;7307;7
+Teno;7308;7
+Vichuquén;7309;7
+Linares;7401;7
+Colbún;7402;7
+Longaví;7403;7
+Parral;7404;7
+Retiro;7405;7
+San Javier;7406;7
+Villa Alegre;7407;7
+Yerbas Buenas;7408;7
+Concepción;8101;8
+Coronel;8102;8
+Chiguayante;8103;8
+Florida;8104;8
+Hualqui;8105;8
+Lota;8106;8
+Penco;8107;8
+San Pedro de la Paz;8108;8
+Santa Juana;8109;8
+Talcahuano;8110;8
+Tomé;8111;8
+Hualpén;8112;8
+Lebu;8201;8
+Arauco;8202;8
+Cañete;8203;8
+Contulmo;8204;8
+Curanilahue;8205;8
+Los Alamos;8206;8
+Tirúa;8207;8
+Los Angeles;8301;8
+Antuco;8302;8
+Cabrero;8303;8
+Laja;8304;8
+Mulchén;8305;8
+Nacimiento;8306;8
+Negrete;8307;8
+Quilaco;8308;8
+Quilleco;8309;8
+San Rosendo;8310;8
+Santa Bárbara;8311;8
+Tucapel;8312;8
+Yumbel;8313;8
+Alto Biobío;8314;8
+Temuco;9101;9
+Carahue;9102;9
+Cunco;9103;9
+Curarrehue;9104;9
+Freire;9105;9
+Galvarino;9106;9
+Gorbea;9107;9
+Lautaro;9108;9
+Loncoche;9109;9
+Melipeuco;9110;9
+Nueva Imperial;9111;9
+Padre Las Casas;9112;9
+Perquenco;9113;9
+Pitrufquén;9114;9
+Pucón;9115;9
+Saavedra;9116;9
+Teodoro Schmidt;9117;9
+Toltén;9118;9
+Vilcún;9119;9
+Villarrica;9120;9
+Cholchol;9121;9
+Angol;9201;9
+Collipulli;9202;9
+Curacautín;9203;9
+Ercilla;9204;9
+Lonquimay;9205;9
+Los Sauces;9206;9
+Lumaco;9207;9
+Purén;9208;9
+Renaico;9209;9
+Traiguén;9210;9
+Victoria;9211;9
+Puerto Montt;10101;10
+Calbuco;10102;10
+Cochamó;10103;10
+Fresia;10104;10
+Frutillar;10105;10
+Los Muermos;10106;10
+Llanquihue;10107;10
+Maullín;10108;10
+Puerto Varas;10109;10
+Castro;10201;10
+Ancud;10202;10
+Chonchi;10203;10
+Curaco de Vélez;10204;10
+Dalcahue;10205;10
+Puqueldón;10206;10
+Queilén;10207;10
+Quellón;10208;10
+Quemchi;10209;10
+Quinchao;10210;10
+Osorno;10301;10
+Puerto Octay;10302;10
+Purranque;10303;10
+Puyehue;10304;10
+Río Negro;10305;10
+San Juan de la Costa;10306;10
+San Pablo;10307;10
+Chaitén;10401;10
+Futaleufú;10402;10
+Hualaihué;10403;10
+Palena;10404;10
+Coihaique;11101;11
+Lago Verde;11102;11
+Aisén;11201;11
+Cisnes;11202;11
+Guaitecas;11203;11
+Cochrane;11301;11
+O'Higgins;11302;11
+Tortel;11303;11
+Chile Chico;11401;11
+Río Ibáñez;11402;11
+Punta Arenas;12101;12
+Laguna Blanca;12102;12
+Río Verde;12103;12
+San Gregorio;12104;12
+Cabo de Hornos;12201;12
+Porvenir;12301;12
+Primavera;12302;12
+Timaukel;12303;12
+Natales;12401;12
+Torres del Paine;12402;12
+Santiago;13101;13
+Cerrillos;13102;13
+Cerro Navia;13103;13
+Conchalí;13104;13
+El Bosque;13105;13
+Estación Central;13106;13
+Huechuraba;13107;13
+Independencia;13108;13
+La Cisterna;13109;13
+La Florida;13110;13
+La Granja;13111;13
+La Pintana;13112;13
+La Reina;13113;13
+Las Condes;13114;13
+Lo Barnechea;13115;13
+Lo Espejo;13116;13
+Lo Prado;13117;13
+Macul;13118;13
+Maipú;13119;13
+Ñuñoa;13120;13
+Pedro Aguirre Cerda;13121;13
+Peñalolén;13122;13
+Providencia;13123;13
+Pudahuel;13124;13
+Quilicura;13125;13
+Quinta Normal;13126;13
+Recoleta;13127;13
+Renca;13128;13
+San Joaquín;13129;13
+San Miguel;13130;13
+San Ramón;13131;13
+Vitacura;13132;13
+Puente Alto;13201;13
+Pirque;13202;13
+San José de Maipo;13203;13
+Colina;13301;13
+Lampa;13302;13
+Tiltil;13303;13
+San Bernardo;13401;13
+Buin;13402;13
+Calera de Tango;13403;13
+Paine;13404;13
+Melipilla;13501;13
+Alhué;13502;13
+Curacaví;13503;13
+María Pinto;13504;13
+San Pedro;13505;13
+Talagante;13601;13
+El Monte;13602;13
+Isla de Maipo;13603;13
+Padre Hurtado;13604;13
+Peñaflor;13605;13
+Valdivia;14101;14
+Corral;14102;14
+Lanco;14103;14
+Los Lagos;14104;14
+Máfil;14105;14
+Mariquina;14106;14
+Paillaco;14107;14
+Panguipulli;14108;14
+La Unión;14201;14
+Futrono;14202;14
+Lago Ranco;14203;14
+Río Bueno;14204;14
+Arica;15101;15
+Camarones;15102;15
+Putre;15201;15
+General Lagos;15202;15
+Chillán;16101;16
+Bulnes;16102;16
+Chillán Viejo;16103;16
+El Carmen;16104;16
+Pemuco;16105;16
+Pinto;16106;16
+Quillón;16107;16
+San Ignacio;16108;16
+Yungay;16109;16
+Quirihue;16201;16
+Cobquecura;16202;16
+Coelemu;16203;16
+Ninhue;16204;16
+Portezuelo;16205;16
+Ranquil;16206;16
+Treguaco;16207;16
+San Carlos;16301;16
+Coihueco;16302;16
+Ñiquén;16303;16
+San Fabián;16304;16
+San Nicolás;16305;16
