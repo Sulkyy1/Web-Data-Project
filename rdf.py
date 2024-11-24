@@ -58,8 +58,8 @@ def convert_schools(filename: str, anio: int):
 
             # Añadir las propiedades del recurso
             g.add((colegio_uri, EX.nombre, Literal(row['NOM_RBD'])))
-            g.add((colegio_uri, EX.codDep, Literal(row['COD_DEPE'])))
-            g.add((colegio_uri, EX.codDep2, Literal(row['COD_DEPE2'])))
+            #g.add((colegio_uri, EX.codDep, Literal(row['COD_DEPE'])))
+            g.add((colegio_uri, EX.codDep, Literal(row['COD_DEPE2'])))
             g.add((colegio_uri, EX.rural, Literal(row['RURAL_RBD'])))
 
             # Añadir observaciones para las métricas
@@ -80,6 +80,7 @@ filenames = ['./data-clean/SNED_2018_2019_clean.csv', './data-clean/SNED_2020_20
 
 for filename in filenames:
     anio = int(filename.split('_')[2])
+    print(f"Convirtiendo colegios del archivo {filename}")
     convert_schools(filename, anio)
 
 # Guardar el RDF en un archivo
