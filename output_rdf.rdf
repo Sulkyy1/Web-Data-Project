@@ -1,0 +1,1792 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/Comuna/10101> a ex:Comuna ;
+    ex:cut 10101 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Puerto Montt"^^xsd:string .
+
+<http://example.org/Comuna/10102> a ex:Comuna ;
+    ex:cut 10102 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Calbuco"^^xsd:string .
+
+<http://example.org/Comuna/10103> a ex:Comuna ;
+    ex:cut 10103 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Cochamó"^^xsd:string .
+
+<http://example.org/Comuna/10104> a ex:Comuna ;
+    ex:cut 10104 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Fresia"^^xsd:string .
+
+<http://example.org/Comuna/10105> a ex:Comuna ;
+    ex:cut 10105 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Frutillar"^^xsd:string .
+
+<http://example.org/Comuna/10106> a ex:Comuna ;
+    ex:cut 10106 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Los Muermos"^^xsd:string .
+
+<http://example.org/Comuna/10107> a ex:Comuna ;
+    ex:cut 10107 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Llanquihue"^^xsd:string .
+
+<http://example.org/Comuna/10108> a ex:Comuna ;
+    ex:cut 10108 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Maullín"^^xsd:string .
+
+<http://example.org/Comuna/10109> a ex:Comuna ;
+    ex:cut 10109 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Puerto Varas"^^xsd:string .
+
+<http://example.org/Comuna/10201> a ex:Comuna ;
+    ex:cut 10201 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Castro"^^xsd:string .
+
+<http://example.org/Comuna/10202> a ex:Comuna ;
+    ex:cut 10202 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Ancud"^^xsd:string .
+
+<http://example.org/Comuna/10203> a ex:Comuna ;
+    ex:cut 10203 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Chonchi"^^xsd:string .
+
+<http://example.org/Comuna/10204> a ex:Comuna ;
+    ex:cut 10204 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Curaco de Vélez"^^xsd:string .
+
+<http://example.org/Comuna/10205> a ex:Comuna ;
+    ex:cut 10205 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Dalcahue"^^xsd:string .
+
+<http://example.org/Comuna/10206> a ex:Comuna ;
+    ex:cut 10206 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Puqueldón"^^xsd:string .
+
+<http://example.org/Comuna/10207> a ex:Comuna ;
+    ex:cut 10207 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Queilén"^^xsd:string .
+
+<http://example.org/Comuna/10208> a ex:Comuna ;
+    ex:cut 10208 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Quellón"^^xsd:string .
+
+<http://example.org/Comuna/10209> a ex:Comuna ;
+    ex:cut 10209 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Quemchi"^^xsd:string .
+
+<http://example.org/Comuna/10210> a ex:Comuna ;
+    ex:cut 10210 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Quinchao"^^xsd:string .
+
+<http://example.org/Comuna/10301> a ex:Comuna ;
+    ex:cut 10301 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Osorno"^^xsd:string .
+
+<http://example.org/Comuna/10302> a ex:Comuna ;
+    ex:cut 10302 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Puerto Octay"^^xsd:string .
+
+<http://example.org/Comuna/10303> a ex:Comuna ;
+    ex:cut 10303 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Purranque"^^xsd:string .
+
+<http://example.org/Comuna/10304> a ex:Comuna ;
+    ex:cut 10304 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Puyehue"^^xsd:string .
+
+<http://example.org/Comuna/10305> a ex:Comuna ;
+    ex:cut 10305 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Río Negro"^^xsd:string .
+
+<http://example.org/Comuna/10306> a ex:Comuna ;
+    ex:cut 10306 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "San Juan de la Costa"^^xsd:string .
+
+<http://example.org/Comuna/10307> a ex:Comuna ;
+    ex:cut 10307 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "San Pablo"^^xsd:string .
+
+<http://example.org/Comuna/10401> a ex:Comuna ;
+    ex:cut 10401 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Chaitén"^^xsd:string .
+
+<http://example.org/Comuna/10402> a ex:Comuna ;
+    ex:cut 10402 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Futaleufú"^^xsd:string .
+
+<http://example.org/Comuna/10403> a ex:Comuna ;
+    ex:cut 10403 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Hualaihué"^^xsd:string .
+
+<http://example.org/Comuna/10404> a ex:Comuna ;
+    ex:cut 10404 ;
+    ex:isPartOf <http://example.org/Region/10> ;
+    ex:nombre "Palena"^^xsd:string .
+
+<http://example.org/Comuna/1101> a ex:Comuna ;
+    ex:cut 1101 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Iquique"^^xsd:string .
+
+<http://example.org/Comuna/1107> a ex:Comuna ;
+    ex:cut 1107 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Alto Hospicio"^^xsd:string .
+
+<http://example.org/Comuna/11101> a ex:Comuna ;
+    ex:cut 11101 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Coihaique"^^xsd:string .
+
+<http://example.org/Comuna/11102> a ex:Comuna ;
+    ex:cut 11102 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Lago Verde"^^xsd:string .
+
+<http://example.org/Comuna/11201> a ex:Comuna ;
+    ex:cut 11201 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Aisén"^^xsd:string .
+
+<http://example.org/Comuna/11202> a ex:Comuna ;
+    ex:cut 11202 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Cisnes"^^xsd:string .
+
+<http://example.org/Comuna/11203> a ex:Comuna ;
+    ex:cut 11203 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Guaitecas"^^xsd:string .
+
+<http://example.org/Comuna/11301> a ex:Comuna ;
+    ex:cut 11301 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Cochrane"^^xsd:string .
+
+<http://example.org/Comuna/11302> a ex:Comuna ;
+    ex:cut 11302 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "O'Higgins"^^xsd:string .
+
+<http://example.org/Comuna/11303> a ex:Comuna ;
+    ex:cut 11303 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Tortel"^^xsd:string .
+
+<http://example.org/Comuna/11401> a ex:Comuna ;
+    ex:cut 11401 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Chile Chico"^^xsd:string .
+
+<http://example.org/Comuna/11402> a ex:Comuna ;
+    ex:cut 11402 ;
+    ex:isPartOf <http://example.org/Region/11> ;
+    ex:nombre "Río Ibáñez"^^xsd:string .
+
+<http://example.org/Comuna/12101> a ex:Comuna ;
+    ex:cut 12101 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Punta Arenas"^^xsd:string .
+
+<http://example.org/Comuna/12102> a ex:Comuna ;
+    ex:cut 12102 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Laguna Blanca"^^xsd:string .
+
+<http://example.org/Comuna/12103> a ex:Comuna ;
+    ex:cut 12103 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Río Verde"^^xsd:string .
+
+<http://example.org/Comuna/12104> a ex:Comuna ;
+    ex:cut 12104 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "San Gregorio"^^xsd:string .
+
+<http://example.org/Comuna/12201> a ex:Comuna ;
+    ex:cut 12201 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Cabo de Hornos"^^xsd:string .
+
+<http://example.org/Comuna/12301> a ex:Comuna ;
+    ex:cut 12301 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Porvenir"^^xsd:string .
+
+<http://example.org/Comuna/12302> a ex:Comuna ;
+    ex:cut 12302 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Primavera"^^xsd:string .
+
+<http://example.org/Comuna/12303> a ex:Comuna ;
+    ex:cut 12303 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Timaukel"^^xsd:string .
+
+<http://example.org/Comuna/12401> a ex:Comuna ;
+    ex:cut 12401 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Natales"^^xsd:string .
+
+<http://example.org/Comuna/12402> a ex:Comuna ;
+    ex:cut 12402 ;
+    ex:isPartOf <http://example.org/Region/12> ;
+    ex:nombre "Torres del Paine"^^xsd:string .
+
+<http://example.org/Comuna/13101> a ex:Comuna ;
+    ex:cut 13101 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Santiago"^^xsd:string .
+
+<http://example.org/Comuna/13102> a ex:Comuna ;
+    ex:cut 13102 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Cerrillos"^^xsd:string .
+
+<http://example.org/Comuna/13103> a ex:Comuna ;
+    ex:cut 13103 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Cerro Navia"^^xsd:string .
+
+<http://example.org/Comuna/13104> a ex:Comuna ;
+    ex:cut 13104 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Conchalí"^^xsd:string .
+
+<http://example.org/Comuna/13105> a ex:Comuna ;
+    ex:cut 13105 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "El Bosque"^^xsd:string .
+
+<http://example.org/Comuna/13106> a ex:Comuna ;
+    ex:cut 13106 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Estación Central"^^xsd:string .
+
+<http://example.org/Comuna/13107> a ex:Comuna ;
+    ex:cut 13107 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Huechuraba"^^xsd:string .
+
+<http://example.org/Comuna/13108> a ex:Comuna ;
+    ex:cut 13108 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Independencia"^^xsd:string .
+
+<http://example.org/Comuna/13109> a ex:Comuna ;
+    ex:cut 13109 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "La Cisterna"^^xsd:string .
+
+<http://example.org/Comuna/13110> a ex:Comuna ;
+    ex:cut 13110 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "La Florida"^^xsd:string .
+
+<http://example.org/Comuna/13111> a ex:Comuna ;
+    ex:cut 13111 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "La Granja"^^xsd:string .
+
+<http://example.org/Comuna/13112> a ex:Comuna ;
+    ex:cut 13112 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "La Pintana"^^xsd:string .
+
+<http://example.org/Comuna/13113> a ex:Comuna ;
+    ex:cut 13113 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "La Reina"^^xsd:string .
+
+<http://example.org/Comuna/13114> a ex:Comuna ;
+    ex:cut 13114 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Las Condes"^^xsd:string .
+
+<http://example.org/Comuna/13115> a ex:Comuna ;
+    ex:cut 13115 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Lo Barnechea"^^xsd:string .
+
+<http://example.org/Comuna/13116> a ex:Comuna ;
+    ex:cut 13116 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Lo Espejo"^^xsd:string .
+
+<http://example.org/Comuna/13117> a ex:Comuna ;
+    ex:cut 13117 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Lo Prado"^^xsd:string .
+
+<http://example.org/Comuna/13118> a ex:Comuna ;
+    ex:cut 13118 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Macul"^^xsd:string .
+
+<http://example.org/Comuna/13119> a ex:Comuna ;
+    ex:cut 13119 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Maipú"^^xsd:string .
+
+<http://example.org/Comuna/13120> a ex:Comuna ;
+    ex:cut 13120 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Ñuñoa"^^xsd:string .
+
+<http://example.org/Comuna/13121> a ex:Comuna ;
+    ex:cut 13121 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Pedro Aguirre Cerda"^^xsd:string .
+
+<http://example.org/Comuna/13122> a ex:Comuna ;
+    ex:cut 13122 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Peñalolén"^^xsd:string .
+
+<http://example.org/Comuna/13123> a ex:Comuna ;
+    ex:cut 13123 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Providencia"^^xsd:string .
+
+<http://example.org/Comuna/13124> a ex:Comuna ;
+    ex:cut 13124 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Pudahuel"^^xsd:string .
+
+<http://example.org/Comuna/13125> a ex:Comuna ;
+    ex:cut 13125 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Quilicura"^^xsd:string .
+
+<http://example.org/Comuna/13126> a ex:Comuna ;
+    ex:cut 13126 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Quinta Normal"^^xsd:string .
+
+<http://example.org/Comuna/13127> a ex:Comuna ;
+    ex:cut 13127 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Recoleta"^^xsd:string .
+
+<http://example.org/Comuna/13128> a ex:Comuna ;
+    ex:cut 13128 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Renca"^^xsd:string .
+
+<http://example.org/Comuna/13129> a ex:Comuna ;
+    ex:cut 13129 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "San Joaquín"^^xsd:string .
+
+<http://example.org/Comuna/13130> a ex:Comuna ;
+    ex:cut 13130 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "San Miguel"^^xsd:string .
+
+<http://example.org/Comuna/13131> a ex:Comuna ;
+    ex:cut 13131 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "San Ramón"^^xsd:string .
+
+<http://example.org/Comuna/13132> a ex:Comuna ;
+    ex:cut 13132 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Vitacura"^^xsd:string .
+
+<http://example.org/Comuna/13201> a ex:Comuna ;
+    ex:cut 13201 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Puente Alto"^^xsd:string .
+
+<http://example.org/Comuna/13202> a ex:Comuna ;
+    ex:cut 13202 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Pirque"^^xsd:string .
+
+<http://example.org/Comuna/13203> a ex:Comuna ;
+    ex:cut 13203 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "San José de Maipo"^^xsd:string .
+
+<http://example.org/Comuna/13301> a ex:Comuna ;
+    ex:cut 13301 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Colina"^^xsd:string .
+
+<http://example.org/Comuna/13302> a ex:Comuna ;
+    ex:cut 13302 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Lampa"^^xsd:string .
+
+<http://example.org/Comuna/13303> a ex:Comuna ;
+    ex:cut 13303 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Tiltil"^^xsd:string .
+
+<http://example.org/Comuna/13401> a ex:Comuna ;
+    ex:cut 13401 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "San Bernardo"^^xsd:string .
+
+<http://example.org/Comuna/13402> a ex:Comuna ;
+    ex:cut 13402 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Buin"^^xsd:string .
+
+<http://example.org/Comuna/13403> a ex:Comuna ;
+    ex:cut 13403 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Calera de Tango"^^xsd:string .
+
+<http://example.org/Comuna/13404> a ex:Comuna ;
+    ex:cut 13404 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Paine"^^xsd:string .
+
+<http://example.org/Comuna/13501> a ex:Comuna ;
+    ex:cut 13501 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Melipilla"^^xsd:string .
+
+<http://example.org/Comuna/13502> a ex:Comuna ;
+    ex:cut 13502 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Alhué"^^xsd:string .
+
+<http://example.org/Comuna/13503> a ex:Comuna ;
+    ex:cut 13503 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Curacaví"^^xsd:string .
+
+<http://example.org/Comuna/13504> a ex:Comuna ;
+    ex:cut 13504 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "María Pinto"^^xsd:string .
+
+<http://example.org/Comuna/13505> a ex:Comuna ;
+    ex:cut 13505 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "San Pedro"^^xsd:string .
+
+<http://example.org/Comuna/13601> a ex:Comuna ;
+    ex:cut 13601 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Talagante"^^xsd:string .
+
+<http://example.org/Comuna/13602> a ex:Comuna ;
+    ex:cut 13602 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "El Monte"^^xsd:string .
+
+<http://example.org/Comuna/13603> a ex:Comuna ;
+    ex:cut 13603 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Isla de Maipo"^^xsd:string .
+
+<http://example.org/Comuna/13604> a ex:Comuna ;
+    ex:cut 13604 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Padre Hurtado"^^xsd:string .
+
+<http://example.org/Comuna/13605> a ex:Comuna ;
+    ex:cut 13605 ;
+    ex:isPartOf <http://example.org/Region/13> ;
+    ex:nombre "Peñaflor"^^xsd:string .
+
+<http://example.org/Comuna/1401> a ex:Comuna ;
+    ex:cut 1401 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Pozo Almonte"^^xsd:string .
+
+<http://example.org/Comuna/1402> a ex:Comuna ;
+    ex:cut 1402 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Camiña"^^xsd:string .
+
+<http://example.org/Comuna/1403> a ex:Comuna ;
+    ex:cut 1403 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Colchane"^^xsd:string .
+
+<http://example.org/Comuna/1404> a ex:Comuna ;
+    ex:cut 1404 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Huara"^^xsd:string .
+
+<http://example.org/Comuna/1405> a ex:Comuna ;
+    ex:cut 1405 ;
+    ex:isPartOf <http://example.org/Region/1> ;
+    ex:nombre "Pica"^^xsd:string .
+
+<http://example.org/Comuna/14101> a ex:Comuna ;
+    ex:cut 14101 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Valdivia"^^xsd:string .
+
+<http://example.org/Comuna/14102> a ex:Comuna ;
+    ex:cut 14102 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Corral"^^xsd:string .
+
+<http://example.org/Comuna/14103> a ex:Comuna ;
+    ex:cut 14103 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Lanco"^^xsd:string .
+
+<http://example.org/Comuna/14104> a ex:Comuna ;
+    ex:cut 14104 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Los Lagos"^^xsd:string .
+
+<http://example.org/Comuna/14105> a ex:Comuna ;
+    ex:cut 14105 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Máfil"^^xsd:string .
+
+<http://example.org/Comuna/14106> a ex:Comuna ;
+    ex:cut 14106 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Mariquina"^^xsd:string .
+
+<http://example.org/Comuna/14107> a ex:Comuna ;
+    ex:cut 14107 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Paillaco"^^xsd:string .
+
+<http://example.org/Comuna/14108> a ex:Comuna ;
+    ex:cut 14108 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Panguipulli"^^xsd:string .
+
+<http://example.org/Comuna/14201> a ex:Comuna ;
+    ex:cut 14201 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "La Unión"^^xsd:string .
+
+<http://example.org/Comuna/14202> a ex:Comuna ;
+    ex:cut 14202 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Futrono"^^xsd:string .
+
+<http://example.org/Comuna/14203> a ex:Comuna ;
+    ex:cut 14203 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Lago Ranco"^^xsd:string .
+
+<http://example.org/Comuna/14204> a ex:Comuna ;
+    ex:cut 14204 ;
+    ex:isPartOf <http://example.org/Region/14> ;
+    ex:nombre "Río Bueno"^^xsd:string .
+
+<http://example.org/Comuna/15101> a ex:Comuna ;
+    ex:cut 15101 ;
+    ex:isPartOf <http://example.org/Region/15> ;
+    ex:nombre "Arica"^^xsd:string .
+
+<http://example.org/Comuna/15102> a ex:Comuna ;
+    ex:cut 15102 ;
+    ex:isPartOf <http://example.org/Region/15> ;
+    ex:nombre "Camarones"^^xsd:string .
+
+<http://example.org/Comuna/15201> a ex:Comuna ;
+    ex:cut 15201 ;
+    ex:isPartOf <http://example.org/Region/15> ;
+    ex:nombre "Putre"^^xsd:string .
+
+<http://example.org/Comuna/15202> a ex:Comuna ;
+    ex:cut 15202 ;
+    ex:isPartOf <http://example.org/Region/15> ;
+    ex:nombre "General Lagos"^^xsd:string .
+
+<http://example.org/Comuna/16101> a ex:Comuna ;
+    ex:cut 16101 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Chillán"^^xsd:string .
+
+<http://example.org/Comuna/16102> a ex:Comuna ;
+    ex:cut 16102 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Bulnes"^^xsd:string .
+
+<http://example.org/Comuna/16103> a ex:Comuna ;
+    ex:cut 16103 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Chillán Viejo"^^xsd:string .
+
+<http://example.org/Comuna/16104> a ex:Comuna ;
+    ex:cut 16104 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "El Carmen"^^xsd:string .
+
+<http://example.org/Comuna/16105> a ex:Comuna ;
+    ex:cut 16105 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Pemuco"^^xsd:string .
+
+<http://example.org/Comuna/16106> a ex:Comuna ;
+    ex:cut 16106 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Pinto"^^xsd:string .
+
+<http://example.org/Comuna/16107> a ex:Comuna ;
+    ex:cut 16107 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Quillón"^^xsd:string .
+
+<http://example.org/Comuna/16108> a ex:Comuna ;
+    ex:cut 16108 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "San Ignacio"^^xsd:string .
+
+<http://example.org/Comuna/16109> a ex:Comuna ;
+    ex:cut 16109 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Yungay"^^xsd:string .
+
+<http://example.org/Comuna/16201> a ex:Comuna ;
+    ex:cut 16201 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Quirihue"^^xsd:string .
+
+<http://example.org/Comuna/16202> a ex:Comuna ;
+    ex:cut 16202 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Cobquecura"^^xsd:string .
+
+<http://example.org/Comuna/16203> a ex:Comuna ;
+    ex:cut 16203 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Coelemu"^^xsd:string .
+
+<http://example.org/Comuna/16204> a ex:Comuna ;
+    ex:cut 16204 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Ninhue"^^xsd:string .
+
+<http://example.org/Comuna/16205> a ex:Comuna ;
+    ex:cut 16205 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Portezuelo"^^xsd:string .
+
+<http://example.org/Comuna/16206> a ex:Comuna ;
+    ex:cut 16206 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Ranquil"^^xsd:string .
+
+<http://example.org/Comuna/16207> a ex:Comuna ;
+    ex:cut 16207 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Treguaco"^^xsd:string .
+
+<http://example.org/Comuna/16301> a ex:Comuna ;
+    ex:cut 16301 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "San Carlos"^^xsd:string .
+
+<http://example.org/Comuna/16302> a ex:Comuna ;
+    ex:cut 16302 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Coihueco"^^xsd:string .
+
+<http://example.org/Comuna/16303> a ex:Comuna ;
+    ex:cut 16303 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "Ñiquén"^^xsd:string .
+
+<http://example.org/Comuna/16304> a ex:Comuna ;
+    ex:cut 16304 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "San Fabián"^^xsd:string .
+
+<http://example.org/Comuna/16305> a ex:Comuna ;
+    ex:cut 16305 ;
+    ex:isPartOf <http://example.org/Region/16> ;
+    ex:nombre "San Nicolás"^^xsd:string .
+
+<http://example.org/Comuna/2101> a ex:Comuna ;
+    ex:cut 2101 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Antofagasta"^^xsd:string .
+
+<http://example.org/Comuna/2102> a ex:Comuna ;
+    ex:cut 2102 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Mejillones"^^xsd:string .
+
+<http://example.org/Comuna/2103> a ex:Comuna ;
+    ex:cut 2103 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Sierra Gorda"^^xsd:string .
+
+<http://example.org/Comuna/2104> a ex:Comuna ;
+    ex:cut 2104 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Taltal"^^xsd:string .
+
+<http://example.org/Comuna/2201> a ex:Comuna ;
+    ex:cut 2201 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Calama"^^xsd:string .
+
+<http://example.org/Comuna/2202> a ex:Comuna ;
+    ex:cut 2202 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Ollagüe"^^xsd:string .
+
+<http://example.org/Comuna/2203> a ex:Comuna ;
+    ex:cut 2203 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "San Pedro de Atacama"^^xsd:string .
+
+<http://example.org/Comuna/2301> a ex:Comuna ;
+    ex:cut 2301 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "Tocopilla"^^xsd:string .
+
+<http://example.org/Comuna/2302> a ex:Comuna ;
+    ex:cut 2302 ;
+    ex:isPartOf <http://example.org/Region/2> ;
+    ex:nombre "María Elena"^^xsd:string .
+
+<http://example.org/Comuna/3101> a ex:Comuna ;
+    ex:cut 3101 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Copiapó"^^xsd:string .
+
+<http://example.org/Comuna/3102> a ex:Comuna ;
+    ex:cut 3102 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Caldera"^^xsd:string .
+
+<http://example.org/Comuna/3103> a ex:Comuna ;
+    ex:cut 3103 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Tierra Amarilla"^^xsd:string .
+
+<http://example.org/Comuna/3201> a ex:Comuna ;
+    ex:cut 3201 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Chañaral"^^xsd:string .
+
+<http://example.org/Comuna/3202> a ex:Comuna ;
+    ex:cut 3202 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Diego de Almagro"^^xsd:string .
+
+<http://example.org/Comuna/3301> a ex:Comuna ;
+    ex:cut 3301 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Vallenar"^^xsd:string .
+
+<http://example.org/Comuna/3302> a ex:Comuna ;
+    ex:cut 3302 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Alto del Carmen"^^xsd:string .
+
+<http://example.org/Comuna/3303> a ex:Comuna ;
+    ex:cut 3303 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Freirina"^^xsd:string .
+
+<http://example.org/Comuna/3304> a ex:Comuna ;
+    ex:cut 3304 ;
+    ex:isPartOf <http://example.org/Region/3> ;
+    ex:nombre "Huasco"^^xsd:string .
+
+<http://example.org/Comuna/4101> a ex:Comuna ;
+    ex:cut 4101 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "La Serena"^^xsd:string .
+
+<http://example.org/Comuna/4102> a ex:Comuna ;
+    ex:cut 4102 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Coquimbo"^^xsd:string .
+
+<http://example.org/Comuna/4103> a ex:Comuna ;
+    ex:cut 4103 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Andacollo"^^xsd:string .
+
+<http://example.org/Comuna/4104> a ex:Comuna ;
+    ex:cut 4104 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "La Higuera"^^xsd:string .
+
+<http://example.org/Comuna/4105> a ex:Comuna ;
+    ex:cut 4105 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Paiguano"^^xsd:string .
+
+<http://example.org/Comuna/4106> a ex:Comuna ;
+    ex:cut 4106 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Vicuña"^^xsd:string .
+
+<http://example.org/Comuna/4201> a ex:Comuna ;
+    ex:cut 4201 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Illapel"^^xsd:string .
+
+<http://example.org/Comuna/4202> a ex:Comuna ;
+    ex:cut 4202 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Canela"^^xsd:string .
+
+<http://example.org/Comuna/4203> a ex:Comuna ;
+    ex:cut 4203 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Los Vilos"^^xsd:string .
+
+<http://example.org/Comuna/4204> a ex:Comuna ;
+    ex:cut 4204 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Salamanca"^^xsd:string .
+
+<http://example.org/Comuna/4301> a ex:Comuna ;
+    ex:cut 4301 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Ovalle"^^xsd:string .
+
+<http://example.org/Comuna/4302> a ex:Comuna ;
+    ex:cut 4302 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Combarbalá"^^xsd:string .
+
+<http://example.org/Comuna/4303> a ex:Comuna ;
+    ex:cut 4303 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Monte Patria"^^xsd:string .
+
+<http://example.org/Comuna/4304> a ex:Comuna ;
+    ex:cut 4304 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Punitaqui"^^xsd:string .
+
+<http://example.org/Comuna/4305> a ex:Comuna ;
+    ex:cut 4305 ;
+    ex:isPartOf <http://example.org/Region/4> ;
+    ex:nombre "Río Hurtado"^^xsd:string .
+
+<http://example.org/Comuna/5101> a ex:Comuna ;
+    ex:cut 5101 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Valparaíso"^^xsd:string .
+
+<http://example.org/Comuna/5102> a ex:Comuna ;
+    ex:cut 5102 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Casablanca"^^xsd:string .
+
+<http://example.org/Comuna/5103> a ex:Comuna ;
+    ex:cut 5103 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Concón"^^xsd:string .
+
+<http://example.org/Comuna/5104> a ex:Comuna ;
+    ex:cut 5104 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Juan Fernández"^^xsd:string .
+
+<http://example.org/Comuna/5105> a ex:Comuna ;
+    ex:cut 5105 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Puchuncaví"^^xsd:string .
+
+<http://example.org/Comuna/5107> a ex:Comuna ;
+    ex:cut 5107 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Quintero"^^xsd:string .
+
+<http://example.org/Comuna/5109> a ex:Comuna ;
+    ex:cut 5109 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Viña del Mar"^^xsd:string .
+
+<http://example.org/Comuna/5201> a ex:Comuna ;
+    ex:cut 5201 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Isla de Pascua"^^xsd:string .
+
+<http://example.org/Comuna/5301> a ex:Comuna ;
+    ex:cut 5301 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Los Andes"^^xsd:string .
+
+<http://example.org/Comuna/5302> a ex:Comuna ;
+    ex:cut 5302 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Calle Larga"^^xsd:string .
+
+<http://example.org/Comuna/5303> a ex:Comuna ;
+    ex:cut 5303 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Rinconada"^^xsd:string .
+
+<http://example.org/Comuna/5304> a ex:Comuna ;
+    ex:cut 5304 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "San Esteban"^^xsd:string .
+
+<http://example.org/Comuna/5401> a ex:Comuna ;
+    ex:cut 5401 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "La Ligua"^^xsd:string .
+
+<http://example.org/Comuna/5402> a ex:Comuna ;
+    ex:cut 5402 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Cabildo"^^xsd:string .
+
+<http://example.org/Comuna/5403> a ex:Comuna ;
+    ex:cut 5403 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Papudo"^^xsd:string .
+
+<http://example.org/Comuna/5404> a ex:Comuna ;
+    ex:cut 5404 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Petorca"^^xsd:string .
+
+<http://example.org/Comuna/5405> a ex:Comuna ;
+    ex:cut 5405 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Zapallar"^^xsd:string .
+
+<http://example.org/Comuna/5501> a ex:Comuna ;
+    ex:cut 5501 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Quillota"^^xsd:string .
+
+<http://example.org/Comuna/5502> a ex:Comuna ;
+    ex:cut 5502 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Calera"^^xsd:string .
+
+<http://example.org/Comuna/5503> a ex:Comuna ;
+    ex:cut 5503 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Hijuelas"^^xsd:string .
+
+<http://example.org/Comuna/5504> a ex:Comuna ;
+    ex:cut 5504 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "La Cruz"^^xsd:string .
+
+<http://example.org/Comuna/5506> a ex:Comuna ;
+    ex:cut 5506 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Nogales"^^xsd:string .
+
+<http://example.org/Comuna/5601> a ex:Comuna ;
+    ex:cut 5601 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "San Antonio"^^xsd:string .
+
+<http://example.org/Comuna/5602> a ex:Comuna ;
+    ex:cut 5602 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Algarrobo"^^xsd:string .
+
+<http://example.org/Comuna/5603> a ex:Comuna ;
+    ex:cut 5603 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Cartagena"^^xsd:string .
+
+<http://example.org/Comuna/5604> a ex:Comuna ;
+    ex:cut 5604 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "El Quisco"^^xsd:string .
+
+<http://example.org/Comuna/5605> a ex:Comuna ;
+    ex:cut 5605 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "El Tabo"^^xsd:string .
+
+<http://example.org/Comuna/5606> a ex:Comuna ;
+    ex:cut 5606 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Santo Domingo"^^xsd:string .
+
+<http://example.org/Comuna/5701> a ex:Comuna ;
+    ex:cut 5701 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "San Felipe"^^xsd:string .
+
+<http://example.org/Comuna/5702> a ex:Comuna ;
+    ex:cut 5702 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Catemu"^^xsd:string .
+
+<http://example.org/Comuna/5703> a ex:Comuna ;
+    ex:cut 5703 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Llaillay"^^xsd:string .
+
+<http://example.org/Comuna/5704> a ex:Comuna ;
+    ex:cut 5704 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Panquehue"^^xsd:string .
+
+<http://example.org/Comuna/5705> a ex:Comuna ;
+    ex:cut 5705 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Putaendo"^^xsd:string .
+
+<http://example.org/Comuna/5706> a ex:Comuna ;
+    ex:cut 5706 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Santa María"^^xsd:string .
+
+<http://example.org/Comuna/5801> a ex:Comuna ;
+    ex:cut 5801 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Quilpué"^^xsd:string .
+
+<http://example.org/Comuna/5802> a ex:Comuna ;
+    ex:cut 5802 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Limache"^^xsd:string .
+
+<http://example.org/Comuna/5803> a ex:Comuna ;
+    ex:cut 5803 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Olmué"^^xsd:string .
+
+<http://example.org/Comuna/5804> a ex:Comuna ;
+    ex:cut 5804 ;
+    ex:isPartOf <http://example.org/Region/5> ;
+    ex:nombre "Villa Alemana"^^xsd:string .
+
+<http://example.org/Comuna/6101> a ex:Comuna ;
+    ex:cut 6101 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Rancagua"^^xsd:string .
+
+<http://example.org/Comuna/6102> a ex:Comuna ;
+    ex:cut 6102 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Codegua"^^xsd:string .
+
+<http://example.org/Comuna/6103> a ex:Comuna ;
+    ex:cut 6103 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Coinco"^^xsd:string .
+
+<http://example.org/Comuna/6104> a ex:Comuna ;
+    ex:cut 6104 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Coltauco"^^xsd:string .
+
+<http://example.org/Comuna/6105> a ex:Comuna ;
+    ex:cut 6105 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Doñihue"^^xsd:string .
+
+<http://example.org/Comuna/6106> a ex:Comuna ;
+    ex:cut 6106 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Graneros"^^xsd:string .
+
+<http://example.org/Comuna/6107> a ex:Comuna ;
+    ex:cut 6107 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Las Cabras"^^xsd:string .
+
+<http://example.org/Comuna/6108> a ex:Comuna ;
+    ex:cut 6108 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Machalí"^^xsd:string .
+
+<http://example.org/Comuna/6109> a ex:Comuna ;
+    ex:cut 6109 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Malloa"^^xsd:string .
+
+<http://example.org/Comuna/6110> a ex:Comuna ;
+    ex:cut 6110 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Mostazal"^^xsd:string .
+
+<http://example.org/Comuna/6111> a ex:Comuna ;
+    ex:cut 6111 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Olivar"^^xsd:string .
+
+<http://example.org/Comuna/6112> a ex:Comuna ;
+    ex:cut 6112 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Peumo"^^xsd:string .
+
+<http://example.org/Comuna/6113> a ex:Comuna ;
+    ex:cut 6113 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Pichidegua"^^xsd:string .
+
+<http://example.org/Comuna/6114> a ex:Comuna ;
+    ex:cut 6114 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Quinta de Tilcoco"^^xsd:string .
+
+<http://example.org/Comuna/6115> a ex:Comuna ;
+    ex:cut 6115 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Rengo"^^xsd:string .
+
+<http://example.org/Comuna/6116> a ex:Comuna ;
+    ex:cut 6116 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Requínoa"^^xsd:string .
+
+<http://example.org/Comuna/6117> a ex:Comuna ;
+    ex:cut 6117 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "San Vicente"^^xsd:string .
+
+<http://example.org/Comuna/6201> a ex:Comuna ;
+    ex:cut 6201 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Pichilemu"^^xsd:string .
+
+<http://example.org/Comuna/6202> a ex:Comuna ;
+    ex:cut 6202 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "La Estrella"^^xsd:string .
+
+<http://example.org/Comuna/6203> a ex:Comuna ;
+    ex:cut 6203 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Litueche"^^xsd:string .
+
+<http://example.org/Comuna/6204> a ex:Comuna ;
+    ex:cut 6204 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Marchihue"^^xsd:string .
+
+<http://example.org/Comuna/6205> a ex:Comuna ;
+    ex:cut 6205 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Navidad"^^xsd:string .
+
+<http://example.org/Comuna/6206> a ex:Comuna ;
+    ex:cut 6206 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Paredones"^^xsd:string .
+
+<http://example.org/Comuna/6301> a ex:Comuna ;
+    ex:cut 6301 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "San Fernando"^^xsd:string .
+
+<http://example.org/Comuna/6302> a ex:Comuna ;
+    ex:cut 6302 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Chépica"^^xsd:string .
+
+<http://example.org/Comuna/6303> a ex:Comuna ;
+    ex:cut 6303 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Chimbarongo"^^xsd:string .
+
+<http://example.org/Comuna/6304> a ex:Comuna ;
+    ex:cut 6304 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Lolol"^^xsd:string .
+
+<http://example.org/Comuna/6305> a ex:Comuna ;
+    ex:cut 6305 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Nancagua"^^xsd:string .
+
+<http://example.org/Comuna/6306> a ex:Comuna ;
+    ex:cut 6306 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Palmilla"^^xsd:string .
+
+<http://example.org/Comuna/6307> a ex:Comuna ;
+    ex:cut 6307 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Peralillo"^^xsd:string .
+
+<http://example.org/Comuna/6308> a ex:Comuna ;
+    ex:cut 6308 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Placilla"^^xsd:string .
+
+<http://example.org/Comuna/6309> a ex:Comuna ;
+    ex:cut 6309 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Pumanque"^^xsd:string .
+
+<http://example.org/Comuna/6310> a ex:Comuna ;
+    ex:cut 6310 ;
+    ex:isPartOf <http://example.org/Region/6> ;
+    ex:nombre "Santa Cruz"^^xsd:string .
+
+<http://example.org/Comuna/7101> a ex:Comuna ;
+    ex:cut 7101 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Talca"^^xsd:string .
+
+<http://example.org/Comuna/7102> a ex:Comuna ;
+    ex:cut 7102 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Constitución"^^xsd:string .
+
+<http://example.org/Comuna/7103> a ex:Comuna ;
+    ex:cut 7103 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Curepto"^^xsd:string .
+
+<http://example.org/Comuna/7104> a ex:Comuna ;
+    ex:cut 7104 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Empedrado"^^xsd:string .
+
+<http://example.org/Comuna/7105> a ex:Comuna ;
+    ex:cut 7105 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Maule"^^xsd:string .
+
+<http://example.org/Comuna/7106> a ex:Comuna ;
+    ex:cut 7106 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Pelarco"^^xsd:string .
+
+<http://example.org/Comuna/7107> a ex:Comuna ;
+    ex:cut 7107 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Pencahue"^^xsd:string .
+
+<http://example.org/Comuna/7108> a ex:Comuna ;
+    ex:cut 7108 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Río Claro"^^xsd:string .
+
+<http://example.org/Comuna/7109> a ex:Comuna ;
+    ex:cut 7109 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "San Clemente"^^xsd:string .
+
+<http://example.org/Comuna/7110> a ex:Comuna ;
+    ex:cut 7110 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "San Rafael"^^xsd:string .
+
+<http://example.org/Comuna/7201> a ex:Comuna ;
+    ex:cut 7201 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Cauquenes"^^xsd:string .
+
+<http://example.org/Comuna/7202> a ex:Comuna ;
+    ex:cut 7202 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Chanco"^^xsd:string .
+
+<http://example.org/Comuna/7203> a ex:Comuna ;
+    ex:cut 7203 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Pelluhue"^^xsd:string .
+
+<http://example.org/Comuna/7301> a ex:Comuna ;
+    ex:cut 7301 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Curicó"^^xsd:string .
+
+<http://example.org/Comuna/7302> a ex:Comuna ;
+    ex:cut 7302 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Hualañé"^^xsd:string .
+
+<http://example.org/Comuna/7303> a ex:Comuna ;
+    ex:cut 7303 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Licantén"^^xsd:string .
+
+<http://example.org/Comuna/7304> a ex:Comuna ;
+    ex:cut 7304 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Molina"^^xsd:string .
+
+<http://example.org/Comuna/7305> a ex:Comuna ;
+    ex:cut 7305 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Rauco"^^xsd:string .
+
+<http://example.org/Comuna/7306> a ex:Comuna ;
+    ex:cut 7306 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Romeral"^^xsd:string .
+
+<http://example.org/Comuna/7307> a ex:Comuna ;
+    ex:cut 7307 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Sagrada Familia"^^xsd:string .
+
+<http://example.org/Comuna/7308> a ex:Comuna ;
+    ex:cut 7308 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Teno"^^xsd:string .
+
+<http://example.org/Comuna/7309> a ex:Comuna ;
+    ex:cut 7309 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Vichuquén"^^xsd:string .
+
+<http://example.org/Comuna/7401> a ex:Comuna ;
+    ex:cut 7401 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Linares"^^xsd:string .
+
+<http://example.org/Comuna/7402> a ex:Comuna ;
+    ex:cut 7402 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Colbún"^^xsd:string .
+
+<http://example.org/Comuna/7403> a ex:Comuna ;
+    ex:cut 7403 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Longaví"^^xsd:string .
+
+<http://example.org/Comuna/7404> a ex:Comuna ;
+    ex:cut 7404 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Parral"^^xsd:string .
+
+<http://example.org/Comuna/7405> a ex:Comuna ;
+    ex:cut 7405 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Retiro"^^xsd:string .
+
+<http://example.org/Comuna/7406> a ex:Comuna ;
+    ex:cut 7406 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "San Javier"^^xsd:string .
+
+<http://example.org/Comuna/7407> a ex:Comuna ;
+    ex:cut 7407 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Villa Alegre"^^xsd:string .
+
+<http://example.org/Comuna/7408> a ex:Comuna ;
+    ex:cut 7408 ;
+    ex:isPartOf <http://example.org/Region/7> ;
+    ex:nombre "Yerbas Buenas"^^xsd:string .
+
+<http://example.org/Comuna/8101> a ex:Comuna ;
+    ex:cut 8101 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Concepción"^^xsd:string .
+
+<http://example.org/Comuna/8102> a ex:Comuna ;
+    ex:cut 8102 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Coronel"^^xsd:string .
+
+<http://example.org/Comuna/8103> a ex:Comuna ;
+    ex:cut 8103 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Chiguayante"^^xsd:string .
+
+<http://example.org/Comuna/8104> a ex:Comuna ;
+    ex:cut 8104 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Florida"^^xsd:string .
+
+<http://example.org/Comuna/8105> a ex:Comuna ;
+    ex:cut 8105 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Hualqui"^^xsd:string .
+
+<http://example.org/Comuna/8106> a ex:Comuna ;
+    ex:cut 8106 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Lota"^^xsd:string .
+
+<http://example.org/Comuna/8107> a ex:Comuna ;
+    ex:cut 8107 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Penco"^^xsd:string .
+
+<http://example.org/Comuna/8108> a ex:Comuna ;
+    ex:cut 8108 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "San Pedro de la Paz"^^xsd:string .
+
+<http://example.org/Comuna/8109> a ex:Comuna ;
+    ex:cut 8109 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Santa Juana"^^xsd:string .
+
+<http://example.org/Comuna/8110> a ex:Comuna ;
+    ex:cut 8110 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Talcahuano"^^xsd:string .
+
+<http://example.org/Comuna/8111> a ex:Comuna ;
+    ex:cut 8111 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Tomé"^^xsd:string .
+
+<http://example.org/Comuna/8112> a ex:Comuna ;
+    ex:cut 8112 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Hualpén"^^xsd:string .
+
+<http://example.org/Comuna/8201> a ex:Comuna ;
+    ex:cut 8201 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Lebu"^^xsd:string .
+
+<http://example.org/Comuna/8202> a ex:Comuna ;
+    ex:cut 8202 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Arauco"^^xsd:string .
+
+<http://example.org/Comuna/8203> a ex:Comuna ;
+    ex:cut 8203 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Cañete"^^xsd:string .
+
+<http://example.org/Comuna/8204> a ex:Comuna ;
+    ex:cut 8204 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Contulmo"^^xsd:string .
+
+<http://example.org/Comuna/8205> a ex:Comuna ;
+    ex:cut 8205 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Curanilahue"^^xsd:string .
+
+<http://example.org/Comuna/8206> a ex:Comuna ;
+    ex:cut 8206 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Los Alamos"^^xsd:string .
+
+<http://example.org/Comuna/8207> a ex:Comuna ;
+    ex:cut 8207 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Tirúa"^^xsd:string .
+
+<http://example.org/Comuna/8301> a ex:Comuna ;
+    ex:cut 8301 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Los Angeles"^^xsd:string .
+
+<http://example.org/Comuna/8302> a ex:Comuna ;
+    ex:cut 8302 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Antuco"^^xsd:string .
+
+<http://example.org/Comuna/8303> a ex:Comuna ;
+    ex:cut 8303 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Cabrero"^^xsd:string .
+
+<http://example.org/Comuna/8304> a ex:Comuna ;
+    ex:cut 8304 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Laja"^^xsd:string .
+
+<http://example.org/Comuna/8305> a ex:Comuna ;
+    ex:cut 8305 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Mulchén"^^xsd:string .
+
+<http://example.org/Comuna/8306> a ex:Comuna ;
+    ex:cut 8306 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Nacimiento"^^xsd:string .
+
+<http://example.org/Comuna/8307> a ex:Comuna ;
+    ex:cut 8307 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Negrete"^^xsd:string .
+
+<http://example.org/Comuna/8308> a ex:Comuna ;
+    ex:cut 8308 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Quilaco"^^xsd:string .
+
+<http://example.org/Comuna/8309> a ex:Comuna ;
+    ex:cut 8309 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Quilleco"^^xsd:string .
+
+<http://example.org/Comuna/8310> a ex:Comuna ;
+    ex:cut 8310 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "San Rosendo"^^xsd:string .
+
+<http://example.org/Comuna/8311> a ex:Comuna ;
+    ex:cut 8311 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Santa Bárbara"^^xsd:string .
+
+<http://example.org/Comuna/8312> a ex:Comuna ;
+    ex:cut 8312 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Tucapel"^^xsd:string .
+
+<http://example.org/Comuna/8313> a ex:Comuna ;
+    ex:cut 8313 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Yumbel"^^xsd:string .
+
+<http://example.org/Comuna/8314> a ex:Comuna ;
+    ex:cut 8314 ;
+    ex:isPartOf <http://example.org/Region/8> ;
+    ex:nombre "Alto Biobío"^^xsd:string .
+
+<http://example.org/Comuna/9101> a ex:Comuna ;
+    ex:cut 9101 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Temuco"^^xsd:string .
+
+<http://example.org/Comuna/9102> a ex:Comuna ;
+    ex:cut 9102 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Carahue"^^xsd:string .
+
+<http://example.org/Comuna/9103> a ex:Comuna ;
+    ex:cut 9103 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Cunco"^^xsd:string .
+
+<http://example.org/Comuna/9104> a ex:Comuna ;
+    ex:cut 9104 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Curarrehue"^^xsd:string .
+
+<http://example.org/Comuna/9105> a ex:Comuna ;
+    ex:cut 9105 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Freire"^^xsd:string .
+
+<http://example.org/Comuna/9106> a ex:Comuna ;
+    ex:cut 9106 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Galvarino"^^xsd:string .
+
+<http://example.org/Comuna/9107> a ex:Comuna ;
+    ex:cut 9107 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Gorbea"^^xsd:string .
+
+<http://example.org/Comuna/9108> a ex:Comuna ;
+    ex:cut 9108 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Lautaro"^^xsd:string .
+
+<http://example.org/Comuna/9109> a ex:Comuna ;
+    ex:cut 9109 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Loncoche"^^xsd:string .
+
+<http://example.org/Comuna/9110> a ex:Comuna ;
+    ex:cut 9110 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Melipeuco"^^xsd:string .
+
+<http://example.org/Comuna/9111> a ex:Comuna ;
+    ex:cut 9111 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Nueva Imperial"^^xsd:string .
+
+<http://example.org/Comuna/9112> a ex:Comuna ;
+    ex:cut 9112 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Padre Las Casas"^^xsd:string .
+
+<http://example.org/Comuna/9113> a ex:Comuna ;
+    ex:cut 9113 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Perquenco"^^xsd:string .
+
+<http://example.org/Comuna/9114> a ex:Comuna ;
+    ex:cut 9114 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Pitrufquén"^^xsd:string .
+
+<http://example.org/Comuna/9115> a ex:Comuna ;
+    ex:cut 9115 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Pucón"^^xsd:string .
+
+<http://example.org/Comuna/9116> a ex:Comuna ;
+    ex:cut 9116 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Saavedra"^^xsd:string .
+
+<http://example.org/Comuna/9117> a ex:Comuna ;
+    ex:cut 9117 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Teodoro Schmidt"^^xsd:string .
+
+<http://example.org/Comuna/9118> a ex:Comuna ;
+    ex:cut 9118 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Toltén"^^xsd:string .
+
+<http://example.org/Comuna/9119> a ex:Comuna ;
+    ex:cut 9119 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Vilcún"^^xsd:string .
+
+<http://example.org/Comuna/9120> a ex:Comuna ;
+    ex:cut 9120 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Villarrica"^^xsd:string .
+
+<http://example.org/Comuna/9121> a ex:Comuna ;
+    ex:cut 9121 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Cholchol"^^xsd:string .
+
+<http://example.org/Comuna/9201> a ex:Comuna ;
+    ex:cut 9201 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Angol"^^xsd:string .
+
+<http://example.org/Comuna/9202> a ex:Comuna ;
+    ex:cut 9202 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Collipulli"^^xsd:string .
+
+<http://example.org/Comuna/9203> a ex:Comuna ;
+    ex:cut 9203 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Curacautín"^^xsd:string .
+
+<http://example.org/Comuna/9204> a ex:Comuna ;
+    ex:cut 9204 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Ercilla"^^xsd:string .
+
+<http://example.org/Comuna/9205> a ex:Comuna ;
+    ex:cut 9205 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Lonquimay"^^xsd:string .
+
+<http://example.org/Comuna/9206> a ex:Comuna ;
+    ex:cut 9206 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Los Sauces"^^xsd:string .
+
+<http://example.org/Comuna/9207> a ex:Comuna ;
+    ex:cut 9207 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Lumaco"^^xsd:string .
+
+<http://example.org/Comuna/9208> a ex:Comuna ;
+    ex:cut 9208 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Purén"^^xsd:string .
+
+<http://example.org/Comuna/9209> a ex:Comuna ;
+    ex:cut 9209 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Renaico"^^xsd:string .
+
+<http://example.org/Comuna/9210> a ex:Comuna ;
+    ex:cut 9210 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Traiguén"^^xsd:string .
+
+<http://example.org/Comuna/9211> a ex:Comuna ;
+    ex:cut 9211 ;
+    ex:isPartOf <http://example.org/Region/9> ;
+    ex:nombre "Victoria"^^xsd:string .
+
+<http://example.org/Region/15> a ex:Region ;
+    ex:cut 15 ;
+    ex:nombre "Arica y Parinacota"^^xsd:string .
+
+<http://example.org/Region/1> a ex:Region ;
+    ex:cut 1 ;
+    ex:nombre "Tarapacá"^^xsd:string .
+
+<http://example.org/Region/2> a ex:Region ;
+    ex:cut 2 ;
+    ex:nombre "Antofagasta"^^xsd:string .
+
+<http://example.org/Region/3> a ex:Region ;
+    ex:cut 3 ;
+    ex:nombre "Atacama"^^xsd:string .
+
+<http://example.org/Region/11> a ex:Region ;
+    ex:cut 11 ;
+    ex:nombre "Aysén del General Carlos Ibáñez del Campo"^^xsd:string .
+
+<http://example.org/Region/12> a ex:Region ;
+    ex:cut 12 ;
+    ex:nombre "Magallanes y de la Antártica Chilena"^^xsd:string .
+
+<http://example.org/Region/14> a ex:Region ;
+    ex:cut 14 ;
+    ex:nombre "Los Ríos"^^xsd:string .
+
+<http://example.org/Region/4> a ex:Region ;
+    ex:cut 4 ;
+    ex:nombre "Coquimbo"^^xsd:string .
+
+<http://example.org/Region/16> a ex:Region ;
+    ex:cut 16 ;
+    ex:nombre "Ñuble"^^xsd:string .
+
+<http://example.org/Region/10> a ex:Region ;
+    ex:cut 10 ;
+    ex:nombre "Los Lagos"^^xsd:string .
+
+<http://example.org/Region/7> a ex:Region ;
+    ex:cut 7 ;
+    ex:nombre "Maule"^^xsd:string .
+
+<http://example.org/Region/9> a ex:Region ;
+    ex:cut 9 ;
+    ex:nombre "La Araucanía"^^xsd:string .
+
+<http://example.org/Region/6> a ex:Region ;
+    ex:cut 6 ;
+    ex:nombre "Libertador Gral. Bernardo O'Higgins"^^xsd:string .
+
+<http://example.org/Region/8> a ex:Region ;
+    ex:cut 8 ;
+    ex:nombre "Biobío"^^xsd:string .
+
+<http://example.org/Region/5> a ex:Region ;
+    ex:cut 5 ;
+    ex:nombre "Valparaíso"^^xsd:string .
+
+<http://example.org/Region/13> a ex:Region ;
+    ex:cut 13 ;
+    ex:nombre "Metropolitana de Santiago"^^xsd:string .
+
