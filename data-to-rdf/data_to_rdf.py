@@ -12,8 +12,8 @@ EX = Namespace("http://example.org/")
 g.bind("ex", EX)
 
 # Cargar CSVs
-csv_regiones = './regiones.csv'     # regiones
-csv_comunas = './comunas.csv'       # comunas
+csv_regiones = './data-clean/regiones.csv'     # regiones
+csv_comunas = './data-clean/comunas.csv'       # comunas
 
 # Diccionario para almacenar las regiones en las que está cada comuna
 regiones = {}
@@ -50,10 +50,9 @@ with open(csv_comunas, mode='r', newline='') as file:
         
         # Relacionar la comuna con su región usando el campo 'cut_comuna' para buscar la región
         if id_region in regiones:
-            print("aaaa")
             g.add((sujeto_comuna, EX.isPartOf, regiones[id_region]))
 
 # Guardar en un archivo en formato Turtle
-with open("output_rdf.rdf", "w", encoding='utf-8') as f:
+with open("./output_rdf.rdf", "w", encoding='utf-8') as f:
     f.write(g.serialize(format='turtle'))
 

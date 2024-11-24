@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 # Cargar los datasets de colegios
-df_2018_2019 = pd.read_csv('SNED_2018_2019.csv', delimiter=';')
-df_2020_2021 = pd.read_csv('SNED_2020_2021.csv', delimiter=';')
-df_2022_2023 = pd.read_csv('SNED_2022_2023.csv', delimiter=';')
+df_2018_2019 = pd.read_csv('./data/SNED_2018_2019.csv', delimiter=';')
+df_2020_2021 = pd.read_csv('./data/SNED_2020_2021.csv', delimiter=';')
+df_2022_2023 = pd.read_csv('./data/SNED_2022_2023.csv', delimiter=';')
 
 # Eliminar columnas que no se utilizarán
 df1 = df_2018_2019.drop(['RBD_A1','RBD_A2','COD_DEPE','COD_PRO_RBD','COD_DEPROV_RBD','NOM_DEPROV_RBD'], axis=1)
@@ -36,6 +36,6 @@ df2 = df2[df2[columns].min(axis=1) >= 0]
 df3 = df3[df3[columns].min(axis=1) >= 0]
 
 # Guardar archivos limpios
-df1.to_csv('SNED_2018_2019_clean.csv', sep=';', index=False)
-df2.to_csv('SNED_2020_2021_clean.csv', sep=';', index=False)
-df3.to_csv('SNED_2022_2023_clean.csv', sep=';', index=False)
+df1.to_csv('./data-clean/SNED_2018_2019_clean.csv', sep=';', index=False)
+df2.to_csv('./data-clean/SNED_2020_2021_clean.csv', sep=';', index=False)
+df3.to_csv('./data-clean/SNED_2022_2023_clean.csv', sep=';', index=False)
