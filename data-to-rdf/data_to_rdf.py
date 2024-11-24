@@ -19,7 +19,7 @@ csv_comunas = './data-clean/comunas.csv'       # comunas
 regiones = {}
 
 # Crear las Regiones
-with open(csv_regiones, mode='r', newline='') as file:
+with open(csv_regiones, mode='r', newline='', encoding="utf-8") as file:
     reader = csv.DictReader(file, delimiter=';')
     for row in reader:
         # Crear un sujeto único para la región utilizando el cut_region
@@ -35,7 +35,7 @@ with open(csv_regiones, mode='r', newline='') as file:
         regiones[id_region] = sujeto_region
 
 # Crear las Comunas
-with open(csv_comunas, mode='r', newline='') as file:
+with open(csv_comunas, mode='r', newline='', encoding="utf-8") as file:
     reader = csv.DictReader(file, delimiter=';')
     for row in reader:
         # Crear un sujeto único para la comuna utilizando el cut_comuna
