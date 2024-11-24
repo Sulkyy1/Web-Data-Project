@@ -76,7 +76,7 @@ def convert_schools(filename: str, anio: int):
                 g.add((obs_uri, EX.anio, Literal(anio, datatype=XSD.gyear)))
                 g.add((obs_uri, METRICAS_RELATIONS[metrica], Literal(row[metrica], datatype=XSD.float)))
 
-filenames = ['./SNED_2018_2019_clean.csv', './SNED_2020_2021_clean.csv', './SNED_2022_2023_clean.csv']
+filenames = ['./data-clean/SNED_2018_2019_clean.csv', './data-clean/SNED_2020_2021_clean.csv', './data-clean/SNED_2022_2023_clean.csv']
 
 for filename in filenames:
     anio = int(filename.split('_')[2])
