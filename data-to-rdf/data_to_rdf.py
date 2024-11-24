@@ -48,7 +48,7 @@ with open(csv_comunas, mode='r', newline='') as file:
         g.add((sujeto_comuna, EX.nombre, Literal(row['comuna'], datatype=XSD.string)))
         g.add((sujeto_comuna, EX.cut, Literal(id_comuna, datatype=XSD.integer)))
         
-        # Relacionar la comuna con su región usando el campo 'cut_comuna' para buscar la región
+        # Relacionar la comuna con su región usando el campo 'cut_region' para buscar la región
         if id_region in regiones:
             g.add((sujeto_comuna, EX.isPartOf, regiones[id_region]))
 
