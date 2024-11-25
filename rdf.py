@@ -39,11 +39,20 @@ METRICAS_NAMES = {
     "SEL": "seleccionado"
 }
 
+dataset_uris = {}
 for metrica in METRICAS:
     # Crear el conjunto de datos Data Cube para cada metrica
-    dataset_uri = EX[f'{metrica}_Dataset']
-    g.add((dataset_uri, RDF.type, QB.DataSet))
-    g.add((dataset_uri, EX['title'], Literal(f"{METRICAS_NAMES[metrica]} de colegios por año")))
+    dataset_uris[metrica] = EX[f'{metrica}_Dataset']
+    g.add((dataset_uris[metrica], RDF.type, QB.DataSet))
+    g.add((dataset_uris[metrica], EX['title'], Literal(f"{METRICAS_NAMES[metrica]} de colegios por año")))
+
+dataset_uris["codDep"] = EX[f'codDep_Dataset']
+g.add((dataset_uris["codDep"], RDF.type, QB.DataSet))
+g.add((dataset_uris["codDep"], EX['title'], Literal(f"código de dependencia de colegios por año")))
+
+dataset_uris["rural"] = EX[f'rural_Dataset']
+g.add((dataset_uris["rural"], RDF.type, QB.DataSet))
+g.add((dataset_uris["rural"], EX['title'], Literal(f"ruralidad de colegios por año")))
 
 def convert_schools(filename: str, anio: int):
     # Leer el CSV
@@ -57,10 +66,8 @@ def convert_schools(filename: str, anio: int):
             g.add((colegio_uri, RDF.type, EX.Colegio))
 
             # Añadir las propiedades del recurso
+            g.add((colegio_uri, EX.rbd, Literal(row['RBD'])))
             g.add((colegio_uri, EX.nombre, Literal(row['NOM_RBD'])))
-            #g.add((colegio_uri, EX.codDep, Literal(row['COD_DEPE'])))
-            g.add((colegio_uri, EX.codDep, Literal(row['COD_DEPE2'])))
-            g.add((colegio_uri, EX.rural, Literal(row['RURAL_RBD'])))
 
             # Añadir observaciones para las métricas
             for metrica in METRICAS:
@@ -69,12 +76,36 @@ def convert_schools(filename: str, anio: int):
 
                 # Añadir el tipo de la observación y su dataset
                 g.add((obs_uri, RDF.type, QB.Observation))
-                g.add((obs_uri, QB.dataSet, dataset_uri))
+                g.add((obs_uri, QB.dataSet, dataset_uris[metrica]))
 
                 # Añadir las tripletas de la observación
                 g.add((obs_uri, EX.colegio, colegio_uri))
                 g.add((obs_uri, EX.anio, Literal(anio, datatype=XSD.gyear)))
                 g.add((obs_uri, METRICAS_RELATIONS[metrica], Literal(row[metrica], datatype=XSD.float)))
+
+            # Observacion para el codigo de dependencia
+            obs_uri = URIRef((EX[f"obs/{row['RBD']}/{anio}/codDep"]))
+
+            # Añadir el tipo de la observación y su dataset
+            g.add((obs_uri, RDF.type, QB.Observation))
+            g.add((obs_uri, QB.dataSet, dataset_uris["codDep"]))
+
+            # Añadir las tripletas de la observación
+            g.add((obs_uri, EX.colegio, colegio_uri))
+            g.add((obs_uri, EX.anio, Literal(anio, datatype=XSD.gyear)))
+            g.add((obs_uri, EX.codDep, Literal(row['COD_DEPE2'], datatype=XSD.int)))
+
+            # Observacion para ruralidad
+            obs_uri = URIRef((EX[f"obs/{row['RBD']}/{anio}/rural"]))
+
+            # Añadir el tipo de la observación y su dataset
+            g.add((obs_uri, RDF.type, QB.Observation))
+            g.add((obs_uri, QB.dataSet, dataset_uris["rural"]))
+
+            # Añadir las tripletas de la observación
+            g.add((obs_uri, EX.colegio, colegio_uri))
+            g.add((obs_uri, EX.anio, Literal(anio, datatype=XSD.gyear)))
+            g.add((obs_uri, EX.rural, Literal(row['RURAL_RBD'], datatype=XSD.int)))
 
 filenames = ['./data-clean/SNED_2018_2019_clean.csv', './data-clean/SNED_2020_2021_clean.csv', './data-clean/SNED_2022_2023_clean.csv']
 
