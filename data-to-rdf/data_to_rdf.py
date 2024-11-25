@@ -15,9 +15,9 @@ g.bind("ex", EX)
 g.bind("qb", QB)
 
 # Cargar CSVs
-csv_regiones = './data-clean/regiones.csv'                                    # regiones
-csv_comunas = './data-clean/comunas.csv'                                      # comunas
-csv_delincuencia = './data-clean/cead_delincuencia_chile_random_sample.csv'   # delincuencia
+csv_regiones = './data-clean/regiones.csv'                 # regiones
+csv_comunas = './data-clean/comunas.csv'                   # comunas
+csv_delincuencia = './data-clean/delincuencia_clean.csv'   # delincuencia
 
 # Diccionario para almacenar las regiones en las que está cada comuna
 regiones = {}
