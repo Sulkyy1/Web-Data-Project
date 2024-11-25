@@ -1,4 +1,4 @@
-from rdflib import Graph, Namespace, URIRef, Literal, RDF, XSD
+from rdflib import BNode, Graph, Namespace, URIRef, Literal, RDF, XSD
 import csv
 import uuid
 
@@ -105,20 +105,105 @@ METRICAS_NAMES = {
     "SEL": "seleccionado"
 }
 
+'''
+# Definición de la estructura del conjunto de datos
+ex:gdpStructure a qb:DataStructureDefinition ;
+    qb:component [ qb:dimension ex:country ] ;
+    qb:component [ qb:dimension ex:year ] ;
+    qb:component [ qb:measure ex:gdp ] ;
+    qb:component [ qb:attribute ex:currency ] .
+'''
+
 dataset_uris = {}
+structure_uris = {}
 for metrica in METRICAS:
     # Crear el conjunto de datos Data Cube para cada metrica
-    dataset_uris[metrica] = EX[f'{metrica}_Dataset']
+    dataset_uris[metrica] = URIRef((EX[f'{metrica}_Dataset']))
     g.add((dataset_uris[metrica], RDF.type, QB.DataSet))
     g.add((dataset_uris[metrica], EX['title'], Literal(f"{METRICAS_NAMES[metrica]} de colegios por año")))
 
-dataset_uris["codDep"] = EX[f'codDep_Dataset']
+    # Vincular el conjunto de datos con su estructura
+    structure_uris[metrica] = URIRef((EX[f'{metrica}_Structure']))
+    g.add((dataset_uris[metrica], QB.structure, structure_uris[metrica]))
+
+    # Definir la estructura del conjunto de datos
+    g.add((structure_uris[metrica], RDF.type, QB.DataStructureDefinition))
+    
+    # Crear nodos anónimos para los componentes
+    component_colegio = BNode()
+    component_anio = BNode()
+    component_measure = BNode()
+
+    # Componentes de la estructura
+    # Dimensión: Colegio
+    g.add((structure_uris[metrica], QB.component, component_colegio))
+    g.add((component_colegio, QB.dimension, EX.colegio))
+
+    # Dimensión: Año
+    g.add((structure_uris[metrica], QB.component, component_anio))
+    g.add((component_anio, QB.dimension, EX.anio))
+
+    # Medida: metrica
+    g.add((structure_uris[metrica], QB.component, component_measure))
+    g.add((component_measure, QB.measure, METRICAS_RELATIONS[metrica]))
+
+dataset_uris["codDep"] = URIRef((EX[f'codDep_Dataset']))
 g.add((dataset_uris["codDep"], RDF.type, QB.DataSet))
 g.add((dataset_uris["codDep"], EX['title'], Literal(f"código de dependencia de colegios por año")))
 
-dataset_uris["rural"] = EX[f'rural_Dataset']
+# Vincular el conjunto de datos con su estructura
+structure_uris["codDep"] = URIRef((EX['codDep_Structure']))
+g.add((dataset_uris["codDep"], QB.structure, structure_uris["codDep"]))
+
+# Definir la estructura del conjunto de datos
+g.add((structure_uris["codDep"], RDF.type, QB.DataStructureDefinition))
+
+# Crear nodos anónimos para los componentes
+component_colegio = BNode()
+component_anio = BNode()
+component_codDep = BNode()
+
+# Componentes de la estructura
+# Dimensión: Colegio
+g.add((structure_uris["codDep"], QB.component, component_colegio))
+g.add((component_colegio, QB.dimension, EX.colegio))
+
+# Dimensión: Año
+g.add((structure_uris["codDep"], QB.component, component_anio))
+g.add((component_anio, QB.dimension, EX.anio))
+
+# Medida: "codDep"
+g.add((structure_uris["codDep"], QB.component, component_codDep))
+g.add((component_codDep, QB.measure, EX.codDep))
+
+dataset_uris["rural"] = URIRef((EX[f'rural_Dataset']))
 g.add((dataset_uris["rural"], RDF.type, QB.DataSet))
 g.add((dataset_uris["rural"], EX['title'], Literal(f"ruralidad de colegios por año")))
+
+# Vincular el conjunto de datos con su estructura
+structure_uris["rural"] = URIRef((EX['rural_Structure']))
+g.add((dataset_uris["rural"], QB.structure, structure_uris["rural"]))
+
+# Definir la estructura del conjunto de datos
+g.add((structure_uris["rural"], RDF.type, QB.DataStructureDefinition))
+
+# Crear nodos anónimos para los componentes
+component_colegio = BNode()
+component_anio = BNode()
+component_rural = BNode()
+
+# Componentes de la estructura
+# Dimensión: Colegio
+g.add((structure_uris["rural"], QB.component, component_colegio))
+g.add((component_colegio, QB.dimension, EX.colegio))
+
+# Dimensión: Año
+g.add((structure_uris["rural"], QB.component, component_anio))
+g.add((component_anio, QB.dimension, EX.anio))
+
+# Medida: "rural"
+g.add((structure_uris["rural"], QB.component, component_rural))
+g.add((component_rural, QB.measure, EX.rural))
 
 def convert_schools(filename: str, anio: int):
     # Leer el CSV
