@@ -1,0 +1,20 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+
+SELECT ?nombreComuna ?anio (AVG(?indiceSNED) AS ?snedPromedio)
+WHERE {
+  ?colegio a ex:Colegio ;
+           ex:locatedIn ?comuna .
+
+  ?observacion a qb:Observation ;
+               ex:colegio ?colegio ;
+               ex:anio ?anio ;
+               ex:indiceSNED ?indiceSNED .
+
+  ?comuna a ex:Comuna ;
+          ex:nombre ?nombreComuna .
+}
+GROUP BY ?nombreComuna ?anio
+ORDER BY ?nombreComuna ?anio

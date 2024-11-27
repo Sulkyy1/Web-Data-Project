@@ -1,0 +1,27 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX ex: <http://example.org/>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?nombrecolegio ?nombreRegion (SUM(?cantidad) AS ?totalDelitos)
+WHERE {
+  # Relacionar colegios con su nombre y comuna
+  ?colegio a ex:Colegio ;
+           ex:nombre ?nombrecolegio ;
+           ex:locatedIn ?comuna .
+
+  # Relacionar delitos con su cantidad y comuna
+  ?delito a ex:Delito ;
+          ex:cantidad ?cantidad ;
+          ex:happenedIn ?comuna .
+
+  # Relacionar comunas con regiones y su nombre
+  ?comuna a ex:Comuna ;
+          ex:isPartOf ?region .
+
+  ?region a ex:Region ;
+          ex:nombre ?nombreRegion .
+}
+GROUP BY ?nombrecolegio ?nombreRegion
+ORDER BY DESC(?totalDelitos)

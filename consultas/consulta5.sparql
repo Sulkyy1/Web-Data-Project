@@ -1,0 +1,29 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+
+SELECT ?nombreComuna (AVG(?indiceSNED) AS ?snedPromedio) (SUM(?cantidadDelitos) AS ?totalDelitos)
+WHERE {
+  # Relacionar colegios con comunas
+  ?colegio a ex:Colegio ;
+           ex:locatedIn ?comuna .
+
+  #Observar índice SNED por colegio y año
+  ?observacion a qb:Observation ;
+               ex:colegio ?colegio ;
+               ex:anio ?anio ;
+               ex:indiceSNED ?indiceSNED .
+
+  #Relacionar delitos con comuna y año
+  ?delito a ex:Delito ;
+          ex:happenedIn ?comuna ;
+          ex:cantidad ?cantidadDelitos .
+
+ #Relacionar comunas con su nombre
+  ?comuna a ex:Comuna ;
+          ex:nombre ?nombreComuna .
+}
+GROUP BY ?nombreComuna 
+ORDER BY DESC(?totalDelitos) DESC(?snedPromedio)
+LIMIT 10

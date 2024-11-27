@@ -1,0 +1,15 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+
+
+SELECT ?nombreComuna (SUM(?cantidad) AS ?totalDelitos)
+WHERE {
+  ?delito a ex:Delito ;
+          ex:cantidad ?cantidad ;
+          ex:happenedIn ?comuna .
+  ?comuna ex:nombre ?nombreComuna .
+}
+GROUP BY ?comuna ?nombreComuna
+ORDER BY DESC(?totalDelitos)
